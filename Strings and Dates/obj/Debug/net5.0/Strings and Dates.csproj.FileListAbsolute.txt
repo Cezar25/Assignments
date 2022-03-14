@@ -1,0 +1,16 @@
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\bin\Debug\net5.0\Strings and Dates.exe
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\bin\Debug\net5.0\Strings and Dates.deps.json
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\bin\Debug\net5.0\Strings and Dates.runtimeconfig.json
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\bin\Debug\net5.0\Strings and Dates.runtimeconfig.dev.json
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\bin\Debug\net5.0\Strings and Dates.dll
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\bin\Debug\net5.0\ref\Strings and Dates.dll
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\bin\Debug\net5.0\Strings and Dates.pdb
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\Strings and Dates.csproj.AssemblyReference.cache
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\Strings and Dates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\Strings and Dates.AssemblyInfoInputs.cache
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\Strings and Dates.AssemblyInfo.cs
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\Strings and Dates.csproj.CoreCompileInputs.cache
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\Strings and Dates.dll
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\ref\Strings and Dates.dll
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\Strings and Dates.pdb
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\Strings and Dates\obj\Debug\net5.0\Strings and Dates.genruntimeconfig.cache
