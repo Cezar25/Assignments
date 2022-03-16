@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CCP/M5D8dLM29BMKPEwr45OW41MdlISFzqNOpQhXT+jucuZVPMH/VWClNe26TZayABvZxq/Gf2gg26EB1jysCA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Assignments\\Generics\\Generics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cezar.buna\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
