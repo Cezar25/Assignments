@@ -12,6 +12,7 @@ namespace Generics
     {
         private int count;
         public T[] Items;
+       
 
         public GenericArray(T[] items)
         {

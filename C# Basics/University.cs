@@ -10,18 +10,21 @@ namespace assign3
     //Am extins interfata IEnumerable pentru o colectie generica (List<Type>)
     public class University : IEnumerable<Teacher>
     {
+        ////nullable property
+        
         public string Name { get; set; }
-        public List<Teacher> Teachers = new();   
-        public University() 
+        public List<Teacher> Teachers = new();
+        public University()
         {
-            Name = "University";
+ 
         }
-
+        
         //Overloaded Constructors
         public University(string name)
         {
             this.Name = name;
         }
+        
 
         IEnumerator<Teacher> IEnumerable<Teacher>.GetEnumerator()
         {
@@ -72,7 +75,7 @@ namespace assign3
             Teacher t4 = new PermanentTeacher("mihai", 423423, 15897);
             Teacher t5 = new PermanentTeacher("vali", 23423, 23456);
 
-            University university = new();
+            University university = new University();
             university.AddTeacher(t1);
             university.AddTeacher(t2);
             university.AddTeacher(t3);

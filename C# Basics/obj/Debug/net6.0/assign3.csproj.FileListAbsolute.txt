@@ -13,3 +13,11 @@ C:\Users\cezar.buna\Desktop\assignment3\assign3\obj\Debug\net6.0\refint\assign3.
 C:\Users\cezar.buna\Desktop\assignment3\assign3\obj\Debug\net6.0\assign3.pdb
 C:\Users\cezar.buna\Desktop\assignment3\assign3\obj\Debug\net6.0\assign3.genruntimeconfig.cache
 C:\Users\cezar.buna\Desktop\assignment3\assign3\obj\Debug\net6.0\ref\assign3.dll
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\C# Basics\obj\Debug\net6.0\assign3.csproj.AssemblyReference.cache
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\C# Basics\obj\Debug\net6.0\assign3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\C# Basics\obj\Debug\net6.0\assign3.AssemblyInfoInputs.cache
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\C# Basics\obj\Debug\net6.0\assign3.AssemblyInfo.cs
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\C# Basics\obj\Debug\net6.0\assign3.csproj.CoreCompileInputs.cache
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\C# Basics\obj\Debug\net6.0\assign3.dll
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\C# Basics\obj\Debug\net6.0\ref\assign3.dll
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\C# Basics\obj\Debug\net6.0\assign3.pdb

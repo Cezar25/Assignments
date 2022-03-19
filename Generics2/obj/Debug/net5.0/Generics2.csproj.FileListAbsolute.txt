@@ -1,0 +1,16 @@
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\Generics2.csproj.AssemblyReference.cache
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\Generics2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\Generics2.AssemblyInfoInputs.cache
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\Generics2.AssemblyInfo.cs
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\Generics2.csproj.CoreCompileInputs.cache
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\bin\Debug\net5.0\Generics2.exe
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\bin\Debug\net5.0\Generics2.deps.json
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\bin\Debug\net5.0\Generics2.runtimeconfig.json
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\bin\Debug\net5.0\Generics2.runtimeconfig.dev.json
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\bin\Debug\net5.0\Generics2.dll
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\bin\Debug\net5.0\ref\Generics2.dll
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\bin\Debug\net5.0\Generics2.pdb
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\Generics2.dll
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\ref\Generics2.dll
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\Generics2.pdb
+C:\Users\cezar.buna\Desktop\Assignments\Generics2\obj\Debug\net5.0\Generics2.genruntimeconfig.cache

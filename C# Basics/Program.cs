@@ -10,6 +10,7 @@ namespace assign3
         {
             var university = University.GetDefaultUniversity();
             Menu.Start(university);
-        }    
-}
+
+        }
+    }
 }
