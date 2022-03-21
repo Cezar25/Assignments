@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Generics2\\Generics2.csproj": {}
+    "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Assignments\\Generics2\\Generics2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Generics2\\Generics2.csproj": {
+    "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Assignments\\Generics2\\Generics2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Generics2\\Generics2.csproj",
+        "projectUniqueName": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Assignments\\Generics2\\Generics2.csproj",
         "projectName": "Generics2",
-        "projectPath": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Generics2\\Generics2.csproj",
+        "projectPath": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Assignments\\Generics2\\Generics2.csproj",
         "packagesPath": "C:\\Users\\cezar.buna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Generics2\\obj\\",
+        "outputPath": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Assignments\\Generics2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cezar.buna\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eHlJveuFEI7/BRoe1snegtyiTbQtbPTWtPFu4Ylm/k88i/uPEYLjpaBL3k4YbBia90aVWlTumWqn+TXMkW0MfA==",
+  "dgSpecHash": "TrtE4AsLxjnMQBg+MKUqkh/agKkL4WUHPzo8xcvwOQ/b+GbgZ0Uc4mp+3XbJTtanTGBRnB7PmFCvmrAqIvOjJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Generics2\\Generics2.csproj",
+  "projectFilePath": "C:\\Users\\cezar.buna\\Desktop\\Assignments\\Assignments\\Generics2\\Generics2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cezar.buna\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
   ],
