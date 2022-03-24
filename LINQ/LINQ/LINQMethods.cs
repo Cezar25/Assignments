@@ -133,11 +133,15 @@ namespace LINQ
         {
             //GroupBy() method
             var flights = Default.GetDefaultFlights1();
-            var groupedFlights = flights.GroupBy(flight => flight.Destination);
+            var groupedFlights = flights.GroupBy(flight => flight.HasBusinessClass);
 
-            foreach (var flight in groupedFlights)
+            foreach (var destination in groupedFlights)
             {
-                Console.WriteLine(flight.ToString());
+                Console.WriteLine(destination.Key);
+                foreach (var flight in destination)
+                {
+                    Console.WriteLine(flight);
+                }
             }
         }
 
