@@ -20,6 +20,7 @@ namespace LINQ
             //LINQMethods.Projection();
 
             //Below we test the joins methods
+            //LINQMethods.Joins();
 
             //Below we test the grouping methods
             //LINQMethods.Grouping();
@@ -37,13 +38,13 @@ namespace LINQ
             //LINQMethods.ElementOperators();
 
             //Below we test the aggregation methods
-            //LINQMethods.Aggregation();
+            LINQMethods.Aggregation();
 
             //Below we test the quantifiers
             //LINQMethods.Quantifiers();
 
             //Below we test the generation methods
-            LINQMethods.Generation();
+            //LINQMethods.Generation();
 
         }
 

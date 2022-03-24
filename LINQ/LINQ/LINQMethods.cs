@@ -15,7 +15,7 @@ namespace LINQ
             Console.WriteLine();
             foreach (var thing in things)
             {
-                Console.Write($"{thing} ");
+                Console.Write($"{thing} \n");
             }
             Console.WriteLine();
         }
@@ -31,7 +31,7 @@ namespace LINQ
             var filtered2 = numbers.Take(3);
             Print(filtered2);
 
-            //Take() method
+            //Skip() method
             var filtered3 = numbers.Skip(3);
             Print(filtered3);
 
@@ -61,8 +61,73 @@ namespace LINQ
             var filtered2 = airports.SelectMany(x => x.Flights);
             Default.Print(filtered2);
         }
+
+        public class FoodOrderingPerson
+        {
+            public FoodOrderingPerson(string name, string town)
+            {
+                Name = name;
+                Town = town;
+            }
+
+            public string Name { get; set; }
+            public string Town { get; set; }
+        }
+
+        public class FoodDeliveringPerson
+        {
+            public FoodDeliveringPerson(string company, string town)
+            {
+                Company = company;
+                Town = town;
+            }
+
+            public string Company { get; set; }
+            public string Town { get; set; }
+
+            
+        }
+
+
    
-        
+        public static void Joins()
+        {
+            var customers = new List<FoodOrderingPerson>()
+            {
+                new FoodOrderingPerson("Andrei","Bucuresti"),
+                new FoodOrderingPerson("Alex","Timisoara"),
+                new FoodOrderingPerson("Andi","Arad")
+            };
+            var deliverers = new List<FoodDeliveringPerson>()
+            {
+                new FoodDeliveringPerson("Glovo","Arad"),
+                new FoodDeliveringPerson("Tazz","Bucuresti"),
+                new FoodDeliveringPerson("UberEats","Timisoara")
+            };
+
+            //Join() method
+            var joined = from customer in customers
+                         join deliverer in deliverers on customer.Town equals deliverer.Town
+                         select new {customer.Name, deliverer.Company };
+
+            Print(joined);
+
+            //GroupJoin() method 
+            var groupJoined = from customer in customers
+                              join deliverer in deliverers on customer.Town equals deliverer.Town into foodieGroup
+                              select new { customer.Name, foodieGroup };
+            foreach (var itemGroup in groupJoined)
+            {
+                foreach (var item2 in itemGroup.foodieGroup)
+                {
+                    Console.WriteLine(item2);
+                }
+            }
+
+            //Zip() method
+            var zipped = customers.Zip(deliverers, (first, second) => first.Name + "ordered from " + second.Company);
+            Print(zipped);
+        }
 
         public static void Grouping()
         {
@@ -82,6 +147,10 @@ namespace LINQ
 
             //OrderBy() and ThenBy() method
             var ordered = letters.OrderBy(x => x.Length).ThenBy(x => x);
+            Print(ordered);
+
+            //OrderDescending() and ThenOrderDescending()
+            var orderedDescending = letters.OrderByDescending(x => x.Length).ThenBy(x => x);
             Print(ordered);
 
             //Reverse() method
@@ -124,6 +193,29 @@ namespace LINQ
                 Console.WriteLine(item);
             }
 
+            //Cast() method
+            var numbersArrayList = new ArrayList();
+            numbersArrayList.Add(1);
+            numbersArrayList.Add(2);
+            numbersArrayList.Add(3);
+            var filteredNumbers = numbersArrayList.Cast<int>().OrderByDescending(number => number);
+            Print(filteredNumbers);
+
+            //ToArray() method
+            var normalList = new List<int>() { 1, 2, 3, 4 };
+            var listToArray = normalList.ToArray();
+            Print(listToArray);
+
+            //ToDictionary() method
+            var toDictionary = normalList.ToDictionary(x => x);
+
+            //ToLookup() method
+            var lookup = normalList.ToLookup(x => x);
+
+            //AsQuery() method
+            var asQuery = normalList.AsQueryable();
+            
+
             //ToList() method
             var array = new int[] { 1, 2, 3, 4, 5 };
             var toList = array.ToList();
@@ -132,12 +224,22 @@ namespace LINQ
 
         public static void ElementOperators()
         {
-            //First() method
+            //First() or FirstOrDefault() method
             var array = new int[] { 1, 2, 3, 4, 5, 1 };
-            Console.WriteLine(array.First());
+            Console.WriteLine(array.FirstOrDefault());
+
+            //Last() or LastOrDefault() method
+            Console.WriteLine(array.LastOrDefault(x => x % 5 == 0));
 
             //Single() method
             //Console.WriteLine(array.Single()); //this line throws an exception because there are multiple 1s(first element)
+
+            //ElementAt() method or ElementAtDefault() method
+            Console.WriteLine(array.ElementAt(3));
+
+            //DefaultOrEmpty
+            var emptyList = new List<int>();
+            Print(emptyList);
         }
 
         public static void Aggregation()
@@ -148,8 +250,18 @@ namespace LINQ
             var count = array.Count(x => x % 2 == 0);
             Console.WriteLine(count);
 
+            //Min,Max() methods
+            var min = array.Min();
+            var max = array.Max();
+
             //Sum() and Average() methods
             Console.WriteLine($"The sum is {array.Sum()} and the average is {array.Average()}");
+
+            //Aggregate() method
+            var fruits = new string[] { "apple", "mango", "orange", "passionfruit", "grape" };
+            var longest = fruits.Aggregate("banana", (longest, next) => next.Length > longest.Length ? next : longest, fruit => fruit.ToUpper());
+
+            Console.WriteLine(longest);
         }
 
         public static void Quantifiers()
