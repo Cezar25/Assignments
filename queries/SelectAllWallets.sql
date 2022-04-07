@@ -1,0 +1,5 @@
+SELECT TOP (1000) [ID]
+   ,[CoinID]
+   ,[UserID]
+   ,[CoinAmount]
+FROM [CryptoAvenueAssignmentDB].[dbo].[Wallets]

@@ -1,0 +1,8 @@
+SELECT TOP (1000) [ID]
+   ,[Email]
+   ,[Password]
+   ,[Age]
+   ,[SecurityQuestion]
+   ,[SecurityAnswer]
+   ,[HasPrivateProfile]
+FROM [CryptoAvenueAssignmentDB].[dbo].[Users]

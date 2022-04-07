@@ -13,4 +13,4 @@ C:\Users\cezar.buna\Desktop\Assignments\Assignments\LINQ\LINQ\obj\Debug\net5.0\L
 C:\Users\cezar.buna\Desktop\Assignments\Assignments\LINQ\LINQ\obj\Debug\net5.0\ref\LINQ.dll
 C:\Users\cezar.buna\Desktop\Assignments\Assignments\LINQ\LINQ\obj\Debug\net5.0\LINQ.pdb
 C:\Users\cezar.buna\Desktop\Assignments\Assignments\LINQ\LINQ\obj\Debug\net5.0\LINQ.genruntimeconfig.cache
-C:\Users\cezar.buna\Desktop\Assignments\Assignments\LINQ\LINQ\obj\Debug\net5.0\refint\LINQ.dll
+C:\Users\cezar.buna\Desktop\Assignments\Assignments\LINQ\LINQ\bin\Debug\net5.0\ref\LINQ.dll

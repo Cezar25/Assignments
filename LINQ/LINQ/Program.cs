@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LINQ
 {
@@ -23,7 +24,7 @@ namespace LINQ
             //LINQMethods.Joins();
 
             //Below we test the grouping methods
-            LINQMethods.Grouping();
+            //LINQMethods.Grouping();
 
             //Below we test the ordering methods
             //LINQMethods.Ordering();
@@ -45,6 +46,15 @@ namespace LINQ
 
             //Below we test the generation methods
             //LINQMethods.Generation();
+
+            var list = new List<string>();
+            list.Add("aaaa");
+            list.Add("bb");
+            list.Add("ccc");
+
+
+
+            
 
         }
 

@@ -40,7 +40,7 @@ namespace LINQ
             Print(filtered4);
 
             //SkipWhile() method
-            var filtered5 = numbers.TakeWhile(x => x < 3);
+            var filtered5 = numbers.SkipWhile(x => x < 3);
             Print(filtered5);
 
             //Distinct() method

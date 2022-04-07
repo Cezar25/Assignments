@@ -1,0 +1,7 @@
+SELECT TOP (1000) [ID]
+   ,[CoinName]
+   ,[Abreviation]
+   ,[ValueInEUR]
+   ,[ValueInUSD]
+   ,[ValueInBTC]
+FROM [CryptoAvenueAssignmentDB].[dbo].[Coins]
