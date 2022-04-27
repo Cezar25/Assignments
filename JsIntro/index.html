@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Short JS Assignment</title>
+    <script src = "script.js"></script>
+</head>
+<body>
+<p>Hello world!</p>
+
+<form>
+    Data: <input type="text" id="inputId" value=""/>
+    <input type ="button" onclick="displayDate('inputId')" value="Current Date">
+</form>
+
+<script type = "text/javascript">
+    const str = null;
+    if(str == null)
+        console.log("str is null");
+
+    let boolValue;
+
+    //Random integer between 0 and 2
+    let random = Math.floor(Math.random() * 3);
+
+    switch (random){
+        case 0: {
+            boolValue = false;
+            console.log(`The value is ${boolValue}`);
+            break;
+        }
+        case 1:{
+            boolValue = true;
+            console.log(`The value is ${boolValue}`);
+            break;
+        }
+        case 2:{
+            console.log(`The value is ${boolValue}`);
+            break;
+        }
+    }
+
+    let crypto = {
+        name: "Bitcoin",
+        abreviation: "BTC",
+        valueInEUR: 42000,
+        valueInUSD: 47400
+    }
+
+    crypto.valueInBTC = 1;
+    console.log(crypto);
+
+    console.log(crypto.abreviation.toLowerCase());
+    console.log(crypto.name.toUpperCase());
+    console.log(crypto.name.indexOf("co"));
+    console.log(crypto.valueInEUR.toExponential(2));
+    console.log(crypto.valueInUSD.toString());
+    console.log("\n");
+
+    var number = 777;
+    var stringNumber = "777";
+
+    if(number == stringNumber)
+        console.log("== returns true for string and integer comparison in thsi case");
+
+    if(!(number === stringNumber))
+        console.log("=== returns false here because of the data types");
+
+
+</script>
+
+</body>
+</html>
