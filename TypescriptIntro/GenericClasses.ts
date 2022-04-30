@@ -1,16 +1,3 @@
-class User {
-    private email: string;
-    private password: string;
-    private age: number;
-    public hasPrivateProfile: boolean;
-
-    constructor(email: string, password: string, age: number, hasPrivateProfile: boolean) {
-        this.email = email;
-        this.password = password;
-        this.age = age;
-        this.hasPrivateProfile = hasPrivateProfile;
-    }
-}
 
 class Generic<T>{
     members: T[];
