@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "files":[
+  "script.ts",
+  "classes.ts",
+    "interfaces.ts",
+    "GenericClasses.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
